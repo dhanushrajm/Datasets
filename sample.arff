@@ -1,0 +1,20 @@
+
+
+@relation Car_Thieft_Report
+
+@attribute Color {Red,Yellow}
+@attribute Type {Sports,SUV}
+@attribute Origin {Domestic, Imported}
+@attribute Stolen? {yes,no}
+
+@data
+Red,Sports,Domestic,yes
+Red,Sports,Domestic,no
+Red,Sports,Domestic,yes
+Yellow,Sports,Domestic,no
+Yellow,Sports,Imported,yes
+Yellow,SUV,Imported,no
+Yellow,SUV,Imported,yes
+Yellow,SUV,Domestic,no
+Red,SUV,Imported,no
+Red,Sports,Imported,yes
